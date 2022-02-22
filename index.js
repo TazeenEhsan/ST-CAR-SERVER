@@ -237,8 +237,8 @@ run().catch(console.dir);
 app.get('/', (req, res) => {
     res.send('Running ST Cars');
 });
-app.get('/morning', (req, res) => {
-    res.send('Morning');
+app.get('/morning2', (req, res) => {
+    res.send('Morning2');
 });
 app.get('/hello', (req, res) => {
     res.send('Hello ST Cars');
